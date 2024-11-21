@@ -1,0 +1,40 @@
+{
+  "producto": [
+    {
+      "id": 1,
+      "titulo": "zapatos nike jordan retro 4",
+      "precio": "450.000 cop",
+      "imagen": "img.img/jordan retro 4.jpg"
+    },
+    {
+      "id": 2,
+      "titulo": "camisa tipo polo",
+      "precio": "65.000 cop",
+      "imagen": "img.img/camiseta-tipo-polo-tela-fria-impor.jpg"
+    },
+    {
+      "id": 3,
+      "titulo": "gorra tipo beisboll",
+      "precio": "70.000 cop",
+      "imagen": "img.img/gorra.png"
+    },
+    {
+      "id": 4,
+      "titulo": "play 2 nueva",
+      "precio": "350.000 cop",
+      "imagen": "img.img/play-2.jpg"
+    },
+    {
+      "id": 5,
+      "titulo": "taza de dragon ball",
+      "precio": "35.000 cop",
+      "imagen": "img.img/dragonball2.png"
+    },
+    {
+      "id": 6,
+      "titulo": "nintendo switch de 32 gb color neon",
+      "precio": "1.300.000 cop",
+      "imagen": "img.img/nintendo switch 32 gb color neon.webp"
+    }
+  ]
+}

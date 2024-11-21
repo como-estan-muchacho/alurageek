@@ -1,0 +1,14 @@
+{
+  "name": "alurageek",
+  "version": "1.0.0",
+  "description": "pagina wed de venta de articulos,que nos permite agregar articulos nuevos a la venta.",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "darley palacio",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^1.0.0-beta.3"
+  }
+}

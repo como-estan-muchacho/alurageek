@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --main-bg-color: #f0f0f0;
+    --primary-color:  #5D04D9;
+    ;
+    --secondary-color: #ff4d4d;
+    --text-color: #333;
+    --light-text-color: #666;
+    --font-family: "Press Start 2P", system-ui;
+}
+
+body {
+    font-family: var(--font-family);
+    background-color: var(--main-bg-color);
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    background-color: var(--primary-color);
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+header h1, footer h2 {
+    margin: 0;
+}
+
+.titulo2{
+  margin-left: 350px;
+  font-size: 24px;
+}
+
+.contenedor__contenido {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    gap: 300px;
+}
+
+.container__lista {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 50%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.formulario__producto {
+    width: 80%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.container__lista h2, .formulario__producto h2 {
+    margin-top: 0;
+    font-size: 1.5em;
+    color: var(--primary-color);
+}
+
+.formulario__producto{
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor__contenido{
+    display: flex; 
+}
+
+.producto__tarjeta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:190px;
+    height: 320px;
+    margin: 40px;
+    text-align: center;
+    border: 2px solid var(--primary-color);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px color 0000000 ;
+    background-color:  #5D04D9;
+    justify-content: space-around;
+}
+
+.producto__tarjeta img {
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 10px;
+    width: 170px;
+    height: 170px;
+}
+
+.producto__tarjeta p {
+    margin: 10px 0;
+    font-size: 12px;
+    color: var(--main-bg-color);
+}
+
+.producto__tarjeta h3 {
+    margin: 10px 0;
+    font-size: 1.0em;
+    color: var(--main-bg-color); 
+}
+
+.producto__tarjeta p.precio {
+    font-size: 1.0em;
+    color: var(--main-bg-color);
+    margin: 10px 0;
+}
+
+
+
+form#formulario-producto {
+    display: flex;
+    flex-direction: column;
+    width: 472px;
+    height: 512px;
+}
+
+form#formulario-producto input {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 60px;
+    border-color: #5D04D9;
+    width: 392px;
+    height: 58px;
+}
+
+form#formulario-producto button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 188px;
+    height: 55px;
+}
+
+form#formulario-producto button[type="submit"] {
+    background-color: #5D04D9;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 120px;
+}
+
+.boton-eliminar{
+    background-image: url(img.img/besu.jpg);
+    width: 24px;
+    height: 24px;
+}
